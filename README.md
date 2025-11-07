@@ -112,7 +112,9 @@ Todos os testes foram executados com sucesso. As funcionalidades estão operacio
 **Download ZIP**
 
 - Na página do GitHub → botão Code → Download ZIP.
-- Descompacte a pasta e abra a pasta no VS Code.
+- Descompacte você obterá 2 arquivos (Galesmy.zip e README.md)
+- Descompacte Galesmy.zip, você obterá a pasta Galesmy
+- A pasta Galesmy abra no VS Code.
 ---
 ## 7. Execução
 
@@ -125,16 +127,7 @@ cd backend
 ```bash
 npm install
 ```
-
-## 3) ⚙️ Configurar variáveis de ambiente
-
-O projeto já inclui o arquivo `.env` com:
-
-```env
-MONGO_URI=mongodb+srv://GAMA:70473411%40%2Eobj@m0.rtudete.mongodb.net/nest_supermarket
-```
-
-## 4) ▶️ Rodar o servidor
+## 3) ▶️ Rodar o servidor
 
 ```bash
 node server.js
